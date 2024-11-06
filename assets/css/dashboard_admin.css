@@ -1,0 +1,33 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #f8f9fa;
+}
+
+.header {
+    background-color: #8a0538;
+    color: white;
+    padding: 10px 20px;
+}
+
+.btn-add-user {
+    background-color: #8a0538;
+    color: white;
+}
+
+#user-list-container {
+    max-width: 1500px;
+    border-radius: 24px;
+}
+
+#aluno-fields,
+#coordenador-fields {
+    display: none;
+}
+
+.modal-footer .btn-primary {
+    background-color: #8a0538;
+}
+
+.table-hover th, .table-hover td {
+    vertical-align: middle;
+}
