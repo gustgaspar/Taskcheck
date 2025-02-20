@@ -73,7 +73,3 @@ index.php
 6. Faça ajustes no arquivo `.htaccess` do projeto, se necessário, para garantir o funcionamento do sistema de rotas em outros ambientes.
 7. Execute o servidor local e acesse `localhost` (ou o endereço correspondente ao seu ambiente).
 8. Como o projeto foi pensado para importar (hipoteticamente) usuários de bancos de dados externos de uma instituição de ensino, não foi criada a função de cadastro de novos usuários. Para adicionar um usuário, acesse o painel do administrador em `localhost/admin` e crie o usuário com as informações e o tipo desejado.
-
----
-# TaskcheckOrgao
-# TaskcheckOrgao
