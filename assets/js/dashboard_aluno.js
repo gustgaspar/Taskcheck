@@ -218,7 +218,6 @@ document.addEventListener("DOMContentLoaded", () => {
         }
 
         const nome = document.getElementById('nome').value;
-        const orgao = document.getElementById('orgao').value;
         const data_realizacao = document.getElementById('data').value;
         const id_categoria = document.getElementById('categoria').value;
         const texto_reflexao = document.getElementById('reflexao').value;
@@ -237,7 +236,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
         const formData = new FormData();
         formData.append('nome', nome);
-        formData.append('orgao', orgao);
         formData.append('data_realizacao', data_realizacao);
         formData.append('id_categoria', id_categoria);
         formData.append('texto_reflexao', texto_reflexao);
@@ -294,11 +292,6 @@ document.addEventListener("DOMContentLoaded", () => {
             const colunaNome = document.createElement("td");
             colunaNome.textContent = atividade.nome;
             linha.appendChild(colunaNome);
-
-            // ORGAO EMISSOR
-            const colunaOrgao = document.createElement("td");
-            colunaOrgao.textContent = atividade.orgao;
-            linha.appendChild(colunaOrgao);
 
             // CATEGORIA
             const colunaCategoria = document.createElement("td");
