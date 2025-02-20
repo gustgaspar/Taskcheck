@@ -64,7 +64,7 @@ index.php
 ## Como Executar
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/bernardogazola/taskcheck.git
+   git clone https://github.com/gustgaspar/Taskcheck.git
    ```
 2. Configure o ambiente com Apache, PHP e MySQL. Utilize ferramentas como **XAMPP**, **MAMP**, **Laragon** ou outras semelhantes para facilitar a configuração do ambiente.
 3. Importe o banco de dados incluído. (`database/database.php` caso queira alterar informações de conexão do banco de dados)
