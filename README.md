@@ -75,6 +75,5 @@ index.php
 8. Como o projeto foi pensado para importar (hipoteticamente) usuários de bancos de dados externos de uma instituição de ensino, não foi criada a função de cadastro de novos usuários. Para adicionar um usuário, acesse o painel do administrador em `localhost/admin` e crie o usuário com as informações e o tipo desejado.
 
 ---
-![MadeBy](https://img.shields.io/badge/%F0%9F%98%89-Bernardo%20Gazola-blue)
 # TaskcheckOrgao
 # TaskcheckOrgao
