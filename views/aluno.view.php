@@ -36,11 +36,6 @@ if (!isset($_SESSION['id_usuario']) || $_SESSION['tipo'] != 'aluno') {
                     <div class="invalid-feedback">Por favor, insira o nome da atividade.</div>
                 </div>
                 <div class="mb-3">
-                    <label for="orgao" class="form-label">Nome do orgao</label>
-                    <input type="text" class="form-control" id="orgao" placeholder="Informe o orgao" required />
-                    <div class="invalid-feedback">Por favor, insira o nome do orgao.</div>
-                </div>
-                <div class="mb-3">
                     <label for="reflexao" class="form-label">Reflexão</label>
                     <textarea class="form-control" id="reflexao" rows="3" placeholder="Informe a reflexão" required></textarea>
                     <div class="invalid-feedback">Por favor, insira a reflexão.</div>
@@ -74,7 +69,6 @@ if (!isset($_SESSION['id_usuario']) || $_SESSION['tipo'] != 'aluno') {
                     <thead>
                     <tr>
                         <th>Nome</th>
-                        <th>Orgao Emissor</th>
                         <th>Categoria</th>
                         <th>Data de Realização</th>
                         <th>Status</th>
