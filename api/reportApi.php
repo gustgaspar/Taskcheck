@@ -138,7 +138,6 @@ function adicionarAtividade($dados) {
     }
 
     $nome = mysqli_real_escape_string($connection, $dados['nome']);
-    $orgao = mysqli_real_escape_string($connection, $dados['orgao']);
     $data_realizacao = mysqli_real_escape_string($connection, $dados['data_realizacao']);
     $id_categoria = mysqli_real_escape_string($connection, $dados['id_categoria']);
     $texto_reflexao = mysqli_real_escape_string($connection, $dados['texto_reflexao']);
@@ -163,8 +162,8 @@ function adicionarAtividade($dados) {
         $certificado = null;
     }
 
-    $colunas = "nome, data_realizacao, id_categoria, texto_reflexao, data_envio, status, id_aluno, certificado, orgao";
-    $valores = "'$nome', '$data_realizacao_formatada', $id_categoria, '$texto_reflexao', '$data_envio', '$status', $id_aluno, '$certificado', '$orgao'";
+    $colunas = "nome, data_realizacao, id_categoria, texto_reflexao, data_envio, status, id_aluno, certificado";
+    $valores = "'$nome', '$data_realizacao_formatada', $id_categoria, '$texto_reflexao', '$data_envio', '$status', $id_aluno, '$certificado'";
 
     $resultado = inserir_dado("relatorio_atividade", $colunas, $valores);
 
@@ -180,7 +179,6 @@ function listarAtividadesEnviadas($id_usuario) {
         SELECT 
             r.id,
             r.nome,
-            r.orgao,
             c.nome AS categoria,
             r.data_realizacao,
             r.status
